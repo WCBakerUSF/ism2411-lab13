@@ -1,3 +1,8 @@
+# Reflection Questions
+# 1. A Boolean filter is a method of selecting data using logic only if certain conditions are met. 
+# 2. The single bracket revenue extracts a column as a pandas series object, while the double brackets extract as a pandas DataFrame object
+# 3. Pandas can be scaled to a much larger degree than Excel, either that or pandas can be used to make repeatable scripts
+
 #---Exercise 1---
 import pandas as pd; df = pd.read_csv('data/retail_sales.csv')
 
