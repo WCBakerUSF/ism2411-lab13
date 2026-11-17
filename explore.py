@@ -19,7 +19,7 @@ print((south.head))
 
 #---Exercise 3---
 df.sort_values('revenue', ascending=False).head(5)
-print(result)
+print(sort.values)
 
 #---Exercise 4---
 big_south = df[(df['region']=='South') & (df['revenue']>1000)]
