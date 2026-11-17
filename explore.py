@@ -27,7 +27,8 @@ print(big_south.head())
 
 #---Exercise 5---
 df['per_unit'] = df['revenue'] / df['quantity']
-print.head()
+print(df.head())
+print(df['per_unit'].mean())
 
 #---Exercise 6---
 print(df['region'].unique())
